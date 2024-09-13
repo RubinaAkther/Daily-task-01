@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Developer Blog</title>
+    <link rel="shortcut icon" href="./img/2349925.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <div class="logo"><img src="./img/2349925.png" alt="R-logo" /></div>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="./about.html">About Me</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <button class="loginBtn">Login</button>
+      </nav>
+    </header>
+
+    <!-- Blog Post Content -->
+    <div class="hero-section-home">
+      <h1
+        data-aos="zoom-in-right"
+        data-aos-duration="3000"
+        data-aos-easing="ease"
+      >
+        My Journey into Learning React: Challenges and Triumphs
+      </h1>
+      <p data-aos="slide-up" data-aos-duration="3000" data-aos-easing="ease">
+        Published on: September 3, 2024
+      </p>
+      <button
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        data-aos-easing="ease"
+      >
+        READ MORE
+      </button>
+    </div>
+    <main>
+      <article>
+        <section>
+          <h2>Introduction</h2>
+          <p>
+            Learning React has been a fascinating and challenging journey for me
+            as a developer. In this post, I’ll share my experiences, the hurdles
+            I encountered, and how I overcame them to become proficient in
+            React.
+          </p>
+        </section>
+
+        <section>
+          <h2>State Management Comparison</h2>
+          <p>
+            Choosing the right state management strategy was a key decision in
+            my React journey. Here's a comparison of some popular options:
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>State Management Tool</th>
+                <th>Ease of Use</th>
+                <th>Scalability</th>
+                <th>Learning Curve</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>React's useState</td>
+                <td>Easy</td>
+                <td>Limited</td>
+                <td>Low</td>
+              </tr>
+              <tr>
+                <td>Context API</td>
+                <td>Moderate</td>
+                <td>Moderate</td>
+                <td>Medium</td>
+              </tr>
+              <tr>
+                <td>Redux</td>
+                <td>Complex</td>
+                <td>High</td>
+                <td>High</td>
+              </tr>
+              <tr>
+                <td>MobX</td>
+                <td>Easy</td>
+                <td>High</td>
+                <td>Medium</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2>Challenges Faced</h2>
+          <p>
+            One of the main challenges was understanding how state management
+            works in React. Initially, the idea of lifting state up and managing
+            it across multiple components was confusing. Debugging issues with
+            state changes took a lot of patience and practice.
+          </p>
+        </section>
+
+        <section>
+          <h2>How I Overcame Challenges</h2>
+          <p>
+            To overcome these challenges, I started building small projects. I
+            created a to-do list app, a weather forecast app, and even a simple
+            calculator. These projects helped solidify my understanding of how
+            React works.
+          </p>
+        </section>
+
+        <section>
+          <h2>Triumphs and Successes</h2>
+          <p>
+            The most rewarding part of learning React was the ability to build
+            dynamic, user-friendly interfaces efficiently. The moment I
+            successfully managed state across multiple components in a complex
+            project, I knew the effort was worth it.
+          </p>
+        </section>
+
+        <section>
+          <h2>User Feedback</h2>
+          <p>
+            I’d love to hear your thoughts on my React journey and this blog
+            post. Please share your feedback below:
+          </p>
+          <form action="#" method="post">
+            <label for="name">Name:</label><br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            /><br /><br />
+
+            <label for="email">Email:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            /><br /><br />
+
+            <label for="feedback">Feedback:</label><br />
+            <textarea
+              id="feedback"
+              name="feedback"
+              rows="4"
+              placeholder="Your thoughts..."
+              required
+            ></textarea
+            ><br /><br />
+            <div class="submitBtn">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </section>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 My Developer Blog</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
